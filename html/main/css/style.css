@@ -17,11 +17,12 @@ body {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5));
     display: none;
     flex-wrap: wrap;
+    overflow: hidden hidden;
 }
 
 .message {
     width: 20%;
-    height: 40%;
+    height: 25%;
     margin: 10px;
     background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgb(255, 255, 255, 0.5));
     display: flex;
