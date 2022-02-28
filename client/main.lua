@@ -4,7 +4,8 @@ end, false)
 
 
 RegisterNetEvent("atom-web:setData")
-AddEventHandler("atom-web:setData", function (data)
+AddEventHandler("atom-web:setData", function ()
+    print("cheh")
     SetNuiFocus(false,false)
 end)
 
