@@ -1,5 +1,5 @@
 RegisterCommand("psary", function ()
-    TriggerServerEvent("atom-web:setData")
+    TriggerClientEvent("atom-web:setData")
 end, false)
 
 
