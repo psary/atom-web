@@ -6,7 +6,7 @@ body {
     margin: 10%;
 }
 
-.board {
+#board {
     position: absolute;
     width: 100%;
     height: auto;
