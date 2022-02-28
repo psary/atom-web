@@ -28,3 +28,16 @@ body {
     display: flex;
     flex-direction: column;
 }
+
+.title {
+    font-weight: bold;
+    margin-bottom: 5px;;
+}
+
+.content {
+    margin-bottom: 5px;;
+}
+
+.author {
+    font-style: italic;
+}
