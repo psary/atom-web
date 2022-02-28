@@ -1,4 +1,5 @@
 RegisterCommand("psary", function ()
+    print("cheh1")
     TriggerServerEvent("atom-web:setData")
 end, false)
 
