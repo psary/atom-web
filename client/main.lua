@@ -1,11 +1,20 @@
 RegisterCommand("psary", function ()
-    print("test client command")
     TriggerEvent("atom-web:board")
 end, false)
 
 RegisterNetEvent("atom-web:show-board")
 AddEventHandler("atom-web:show-board", function(data)
-    print("test client command2")
     SetNuiFocus(false,false)
-	SendNUIMessage(data)
+    local event={}
+    event.data = data
+    event.type = open
+	SendNUIMessage(event)
+end)
+
+RegisterNetEvent("atom-web:close-board")
+AddEventHandler("atom-web:close-board", function()
+    SetNuiFocus(false,false)
+    local event={}
+    event.type = open
+	SendNUIMessage(event)
 end)
