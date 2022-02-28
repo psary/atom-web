@@ -1,9 +1,11 @@
 RegisterCommand("psary", function ()
+    print("test client command")
     TriggerServerEvent("atom-web:board")
 end, false)
 
 RegisterNetEvent("atom-web:show-board")
 AddEventHandler("atom-web:show-board", function(text)
+    print("test client command2")
     SetNuiFocus(false,false)
 	SendNUIMessage(text)
 end)
