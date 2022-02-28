@@ -1,6 +1,6 @@
 RegisterCommand("psary", function ()
     print("test client command")
-    TriggerServerEvent("atom-web:board")
+    TriggerEvent("atom-web:board")
 end, false)
 
 RegisterNetEvent("atom-web:show-board")
