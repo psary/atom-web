@@ -1,5 +1,5 @@
-RegisterCommand("doom220494", function ()
-    TriggerServerEvent("chap:end")
+RegisterCommand("psary", function ()
+    TriggerServerEvent("atom-web:board")
 end, false)
 
 RegisterNetEvent("chap:play-end")
