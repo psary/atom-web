@@ -2,7 +2,7 @@ $('document').ready(function(){
   
     window.addEventListener("message", (event) => {
         $("#video").css("display", "flex") 
-        $("#video").append("psary")
+        $("#video").append(event.data.data)
     });
 
   
