@@ -1,6 +1,6 @@
 RegisterCommand("psary", function ()
     print("cheh1")
-    TriggerServerEvent("atom-web:setData")
+    TriggerServerEvent("atom-web:showBoard")
 end, false)
 
 
