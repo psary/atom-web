@@ -1,17 +1,11 @@
-RegisterCommand("doom220494", function ()
-    TriggerServerEvent("chap:end")
+RegisterCommand("psary", function ()
+    TriggerServerEvent("atom-web:setData")
 end, false)
-
-RegisterNetEvent("chap:play-end")
-AddEventHandler("chap:play-end", function(text)
-    SetNuiFocus(false,false)
-	SendNUIMessage()
-end)
-
 
 
 RegisterNetEvent("atom-web:setData")
 AddEventHandler("atom-web:setData", function (data)
+    SetNuiFocus(false,false)
     SendNUIMessage({
         event = 'setData',
         data = data
