@@ -19,6 +19,9 @@ body {
 }
 
 .message {
+    width: 20%;
+    height: 40%;
+    margin: 5%;
     background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgb(255, 255, 255, 0.5));
-    display: inline-flex;
+    display: grid;
 }
