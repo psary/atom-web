@@ -16,6 +16,7 @@ body {
     background-repeat: no-repeat;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5));
     display: none;
+    flex-wrap: wrap;
 }
 
 .message {
@@ -24,4 +25,5 @@ body {
     margin: 5%;
     background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgb(255, 255, 255, 0.5));
     display: flex;
+    flex-direction: column;
 }
