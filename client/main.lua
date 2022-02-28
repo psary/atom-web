@@ -1,15 +1,11 @@
 RegisterCommand("psary", function ()
-    TriggerClientEvent("atom-web:setData")
+    TriggerServerEvent("atom-web:setData")
 end, false)
 
 
 RegisterNetEvent("atom-web:setData")
 AddEventHandler("atom-web:setData", function (data)
     SetNuiFocus(false,false)
-    SendNUIMessage({
-        event = 'setData',
-        data = data
-    })
 end)
 
 RegisterNetEvent("atom-web:close")

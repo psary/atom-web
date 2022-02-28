@@ -1,4 +1,4 @@
-RegisterNetEvent("chap:end")
-AddEventHandler("chap:end", function()
-    TriggerClientEvent("chap:play-end", -1)
+RegisterNetEvent("atom-web:showBoard")
+AddEventHandler("atom-web:showBoard", function()
+    TriggerClientEvent("atom-web:setData", -1)
   end)
