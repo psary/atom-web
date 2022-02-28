@@ -10,6 +10,7 @@ body {
     width: 60%;
     height: 60%;
     margin: 20%;
+    margin-top: 10%;
     background-size: cover;
     background-repeat: no-repeat;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5));
