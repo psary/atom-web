@@ -6,16 +6,7 @@ game 'gta5'
 ui_page 'html/main/index.html'
 
 file {
-    'html/**/*.*'
-}
-
-
-client_scripts {
-    'client/main.lua',
-}
-
-server_scripts {
-    'server/main.lua',
+    'main/index.html'
 }
 
 files {
