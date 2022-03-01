@@ -40,10 +40,11 @@ body {
 .content {
     margin-bottom: 15px;;
     margin-left: 10px;
+    text-align: justify;
 }
 
 .author {
     font-style: italic;
-    margin-left: 10px;
+    margin-right: 10px;
     text-align: right;
 }
