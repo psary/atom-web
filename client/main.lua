@@ -11,8 +11,8 @@ AddEventHandler("atom-web:show-board", function(data)
 	SendNUIMessage(event)
 end)
 
-RegisterNetEvent("atom-web:close-board")
-AddEventHandler("atom-web:close-board", function()
+RegisterNetEvent("atom-web:board-close")
+AddEventHandler("atom-web:board-close", function()
     SetNuiFocus(false,false)
     local event={}
     event.type = "close"
