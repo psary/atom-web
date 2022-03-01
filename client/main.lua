@@ -4,7 +4,7 @@ end, false)
 
 RegisterNetEvent("atom-web:show-board")
 AddEventHandler("atom-web:show-board", function(data)
-    SetNuiFocus(true,true)
+    SetNuiFocus(false,false)
     local event={}
     event.data = data
     event.type = "open"
