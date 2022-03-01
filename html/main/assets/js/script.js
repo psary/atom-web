@@ -8,7 +8,7 @@ $('document').ready(function(){
               });
             
               $("document").keyup(function(e) {
-                ("#video").css("display", "none");
+                $("#video").css("display", "none");
               });
         } else {
             $("#video").css("display", "none") 
