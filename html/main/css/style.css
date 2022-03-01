@@ -31,11 +31,13 @@ body {
 }
 
 .title {
+    font-size: larger;
     font-weight: bold;
     margin: 10px;
 }
 
 .content {
+    font-size: large;
     margin-bottom: 15px;;
     margin-left: 10px;
     margin-right: 10px;
@@ -43,6 +45,7 @@ body {
 }
 
 .author {
+    font-size: large;
     font-style: italic;
     margin-right: 10px;
     text-align: right;
