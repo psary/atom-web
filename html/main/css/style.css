@@ -22,7 +22,6 @@ body {
     width: 96%;
     height: 96%;
     margin: 2%;
-    display: flex;
     flex-wrap: wrap;
     overflow: hidden hidden;
 }
