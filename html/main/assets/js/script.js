@@ -11,7 +11,5 @@ $('document').ready(function(){
         } else {
             $("#board").css("display", "none") 
         }
-    });
-
-  
+    });  
 });
