@@ -9,7 +9,7 @@ body {
 
 #board {
     width: 60%;
-    height: 60%;
+    height: 80%;
     margin: 20%;
     margin-top: 10%;
     background-size: contain;
@@ -21,10 +21,9 @@ body {
 }
 
 .message-container {
-    width: 30.6%;
-    height: 48%;
-    margin-top: 2%;
-    margin-left: 2%;
+    width: 29.6%;
+    height: 41%;
+    margin: 2%;
     /*background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgb(255, 255, 255, 0.5));*/
     display: flex;
     overflow: hidden hidden;
