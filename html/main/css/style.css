@@ -18,7 +18,7 @@ body {
     display: none;
 }
 
-#board-container {
+#board {
     width: 96%;
     height: 96%;
     margin: 2%;
