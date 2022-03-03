@@ -31,7 +31,7 @@ body {
     overflow: hidden hidden;
 }
 
-.message1 {
+.message0 {
     width: 100%;
     height: 100%;
     background-size: 100% 100%;
@@ -42,7 +42,7 @@ body {
 
 }
 
-.message2 {
+.message1 {
     width: 100%;
     height: 100%;
     background-size: 100% 100%;
@@ -53,7 +53,7 @@ body {
     
 }
 
-.message3 {
+.message2 {
     width: 100%;
     height: 100%;
     background-size: 100% 100%;
@@ -64,7 +64,7 @@ body {
     
 }
 
-.message4 {
+.message3 {
     width: 100%;
     height: 100%;
     background-size: 100% 100%;
