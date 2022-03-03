@@ -20,18 +20,43 @@ body {
     overflow: hidden hidden;
 }
 
-.message {
+.message-container {
     width: 30.6%;
     height: 48%;
     margin-top: 2%;
     margin-left: 2%;
     /*background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgb(255, 255, 255, 0.5));*/
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    background-image: url("../assets/img/page1.png");
     display: flex;
     flex-direction: column;
     overflow: hidden hidden;
+}
+
+.message1 {
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-image: url("../assets/img/page1.png");
+
+}
+
+.message2 {
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-image: url("../assets/img/page2.png");
+    
+}
+
+.message3 {
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-image: url("../assets/img/page3.png");
+    
+}
+
+.message4 {
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-image: url("../assets/img/page4.png");
+    
 }
 
 .title {
