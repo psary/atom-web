@@ -14,7 +14,7 @@ body {
     margin-top: 10%;
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url("../assets/img/wood.jpg");
+    background-image: url("../assets/img/wood.png");
     display: none;
     flex-wrap: wrap;
     overflow: hidden hidden;
