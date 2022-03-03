@@ -22,9 +22,10 @@ body {
 
 .message-container {
     width: 29.3%;
-    height: 46%;
+    height: 37%;
     margin: 1.5%;
     overflow: hidden hidden;
+    align-items: flex-start;
 }
 
 .message0 {
